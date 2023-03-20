@@ -68,6 +68,10 @@ Keptn 0.6.2 introduced an NGINX as new K8s deployment and service called `api-ga
 - The `configuration-service` is exposed to the public. Endpoints that are not intended to be used from the public (e.g., *deleting a project*) are marked and the description is accordingly adapted.
 - The `mongodb-datastore` is exposed to the public. Endpoints that are not intended to be used from the public are marked and the description is accordingly adapted.
 
+## Uploading an API file to a Keptn project 
+* An API file can be uploaded to a project in either of the following ways :
+    * Upload the file directly to your git repo.
+    * Use the `resource-service` API for uploading, as shown in the example snippet from above.
 
 **Architecture of Keptn installation:**
 
